@@ -3,16 +3,18 @@
         "browser": true,
         "es2021": true
     },
-    "extends": [
+    "extends":[
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        
     ],
     "rules": {
 
-        "semi": ["error", "never"],
+        "semi": [1, "always"],
         "@typescript-eslint/semi": "off",
         "no-unexpected-multiline": "error"
+
       },
     "overrides": [
     ],
